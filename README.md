@@ -1,1 +1,4 @@
-# Bleyenberg-Contracting
+Bleyenberg Contracting
+
+Developer: Blitzkrieg Frontend
+

@@ -1,0 +1,48 @@
+.Jamie {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.services {
+    display:flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.projectheader {
+    display:flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.currentprojects {
+    display: grid;
+    flex-direction: column;
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    padding: 100px;
+    margin-left: 200px;
+}
+
+
+#services {
+    display:flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+
+
