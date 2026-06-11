@@ -3,6 +3,7 @@
     font-family: monospace;  
     flex-direction: row;    
     background-color: burlywood;
+    
 
 }
 
@@ -66,7 +67,9 @@ a.link {
     padding: 50px;
     background-color: rgb(55, 55, 99);
     flex-direction: column;
-
+    justify-content: flex-end;
+    min-height: 100%;
+    margin-top: 410px;
 }
 
 .contact {
@@ -138,6 +141,7 @@ h1 {
 .ya {
     display: flex;
     padding: 20px;
+    
 }
 
 

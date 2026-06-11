@@ -45,4 +45,15 @@ h1 {
 }
 
 
+.footerkind {
+    display:flex;
+    padding: 50px;
+    background-color: rgb(55, 55, 99);
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100%;
+    margin-top: 520px;
+}
+
+
 
