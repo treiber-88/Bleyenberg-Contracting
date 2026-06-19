@@ -62,7 +62,7 @@ a.link {
 
 }
 
-.footer {
+#footer {
     display:flex;
     padding: 50px;
     background-color: rgb(55, 55, 99);
@@ -161,3 +161,21 @@ h1 {
   
 
 }
+
+
+
+
+
+button {
+    display:flex;
+    color: white;
+    justify-content: center;
+    background-color: blue;
+    gap: 8px;
+    margin-top: 20px;
+   }
+
+
+   #java {
+    display: flex;
+   }
