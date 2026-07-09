@@ -69,7 +69,8 @@ a.link {
     flex-direction: column;
     justify-content: flex-end;
     min-height: 100%;
-    margin-top: 410px;
+    margin-top: 200px;
+    margin-top: 10px;
 }
 
 .contact {
@@ -158,12 +159,7 @@ h1 {
     flex-direction: column;
     grid-template-columns: repeat(3, 1fr);
 
-  
-
 }
-
-
-
 
 
 button {
@@ -179,3 +175,26 @@ button {
    #java {
     display: flex;
    }
+
+  .hideafooter {
+    display: flex;
+    margin-top: 50px;
+  }
+
+
+  #footerr {
+    display:flex;
+    padding: 50px;
+    background-color: rgb(55, 55, 99);
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100%;
+    margin-top: 400px;
+
+}
+
+.footermod {
+    display: flex;
+    flex-direction: column;
+    marign
+}
