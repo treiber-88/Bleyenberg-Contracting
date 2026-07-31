@@ -1,25 +1,4 @@
 Bleyenberg Contracting
 
-Developer: Blitzkrieg 
-
-
-Need to talk about:
-Colors (almost anything possible)
-Sizes of footer/header.
-Fonts
-	Arial (sans-serif)
-Verdana (sans-serif)
-Tahoma (sans-serif) (???)
-Trebuchet MS (sans-serif)
-Times New Roman (serif)
-Georgia (serif)
-Garamond (serif)
-Courier New (monospace)
-Brush Script MT (cursive)
-Font size.
-Making the phone number more visible (Add sidebars?)
-Pay: 
-$150 flat for the job.
-$50 a month for maintenance.
-
+Developer: Blitzkrieg Frontend
 

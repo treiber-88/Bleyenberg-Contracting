@@ -2,8 +2,7 @@
     display: flex;
     font-family: monospace;  
     flex-direction: row;    
-    background-color: burlywood;
-    
+    background-color: rgb(8, 8, 143);
 
 }
 
@@ -18,6 +17,12 @@ a#logo {
     
 }
 
+#topbutton {
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+
 a.link {
     display: flex;
     text-decoration: none;
@@ -25,8 +30,9 @@ a.link {
     justify-content: flex-end;
     flex-direction: row;
     padding-top: 50px;
-    margin-left: 30px;
-
+    margin-right: 10px;
+    gap: 30px;
+    font-size: 20px;
 }
 
 .sumup {
@@ -34,6 +40,7 @@ a.link {
     padding: 80px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+    color: red
 }
 
 
@@ -41,6 +48,7 @@ a.link {
     display: flex;
     font-family: monospace;
     font-size: 15px;
+    color: red
 }
 
 #appliancepic {
@@ -59,18 +67,15 @@ a.link {
     margin-bottom: 40px;
     margin-right: 40px;
     margin-left: 40px;
-
+    color: red
 }
 
-#footer {
+.footer {
     display:flex;
     padding: 50px;
-    background-color: rgb(55, 55, 99);
+    background-color: rgb(8, 8, 143);
     flex-direction: column;
-    justify-content: flex-end;
-    min-height: 100%;
-    margin-top: 200px;
-    margin-top: 10px;
+
 }
 
 .contact {
@@ -142,7 +147,6 @@ h1 {
 .ya {
     display: flex;
     padding: 20px;
-    
 }
 
 
@@ -152,49 +156,4 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     justify-content: center;
-}
-
-.projectsgroup {
-    display: grid;
-    flex-direction: column;
-    grid-template-columns: repeat(3, 1fr);
-
-}
-
-
-button {
-    display:flex;
-    color: white;
-    justify-content: center;
-    background-color: blue;
-    gap: 8px;
-    margin-top: 20px;
-   }
-
-
-   #java {
-    display: flex;
-   }
-
-  .hideafooter {
-    display: flex;
-    margin-top: 50px;
-  }
-
-
-  #footerr {
-    display:flex;
-    padding: 50px;
-    background-color: rgb(55, 55, 99);
-    flex-direction: column;
-    justify-content: flex-end;
-    min-height: 100%;
-    margin-top: 400px;
-
-}
-
-.footermod {
-    display: flex;
-    flex-direction: column;
- 
 }
