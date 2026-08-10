@@ -14,7 +14,7 @@ a#logo {
     display: flex;
     color: black;
     font-size: 40px;
-    padding: 30px;
+    padding: 2%;
     text-decoration: none;
     margin-right:400px;
     
@@ -56,18 +56,26 @@ a.link {
 
 .sumup {
     display: flex;
-    padding: 80px;
+    flex-direction: row;
+    margin-top: 10%;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 40px;
+    font-style: italic;
     color: red
 }
 
 
 #app {
     display: flex;
+    flex: row;
+    justify-self: center;
+    font-style: italic;
     font-family: monospace;
-    font-size: 15px;
-    color: red
+    font-size: 20px;
+    color: red;
+    margin-bottom: 5%;
+    margin-top: 10%;
 }
 
 #appliancepic {
@@ -91,7 +99,7 @@ a.link {
 
 .footer {
     display:flex;
-    padding: 50px;
+    padding: 2%;
     background-color: rgb(8, 8, 143);
     flex-direction: column;
     margin-top: 30%;
@@ -120,6 +128,23 @@ a.link {
     padding: 20px;
     flex-direction: column;
     
+}
+
+.projpic {
+    display: flex;
+    flex-direction:row;
+    height: 30%;
+    width: 30%;
+}
+
+.dexpic {
+    display: flex;
+    flex-direction: column;
+}
+
+.otherpic {
+    display: flex;
+    flex-direction: column;
 }
 
 .text {
