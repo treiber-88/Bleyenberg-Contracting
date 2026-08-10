@@ -151,13 +151,18 @@ a.link {
 }
 
 .projpic:hover {
-  height: 32%;
-  width:32%;
+    transform: scale(1.2); 
+    position: relative;
 }
 
 .projpic2:hover {
-    height: 65%;
-    width: 108%;
+    transform: scale(1.2); 
+    position: relative;
+}
+
+.topbutton:hover {
+    transform: scale(1.2); 
+    position: relative;
 }
 
 
