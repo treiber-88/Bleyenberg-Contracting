@@ -60,7 +60,45 @@ h1 {
     height: 30%;
     width: 30%;
     gap: 10%;
+} 
+
+
+#undertext {
+    display: flex;
+    flex-direction: row;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.picturesntext {
+    display: grid;
+    flex-direction: row;
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    padding: 100px;
+    margin-left: 350px;    
+}
+
+
+.grandprix {
+    display: grid;
+    flex-direction: row;
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-radius: 25px;
+    place-self: center;
+}
+
+
+
 
 
 
