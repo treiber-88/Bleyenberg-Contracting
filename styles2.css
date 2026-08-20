@@ -53,6 +53,8 @@ h1 {
     align-items: center;
 }
 
+
+
 .projpicex {
     display: flex;
     flex-direction: row;
@@ -82,6 +84,12 @@ h1 {
     position: relative;
     padding: 100px;
     margin-left: 350px;    
+}
+
+.projex {
+    display: flex;
+    height: 80%;
+    width: 80%;
 }
 
 
