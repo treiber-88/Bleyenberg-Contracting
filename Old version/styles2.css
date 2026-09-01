@@ -74,17 +74,16 @@ h1 {
 .picturesntext {
     display: grid;
     flex-direction: row;
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 150px;
     object-fit: cover;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     border-radius: 25px;
     text-align: center;
     position: relative;
-    padding: 40px;
-    margin-left: 4%;
-    margin-right: 4%;
+    padding: 100px;
+    margin-left: 350px;    
 }
 
 .projex {
@@ -111,41 +110,3 @@ h1 {
 
 
 
-
-@media (max-width: 600px) {
-  .services {
-    font-size: 22px;
-    padding: 0 10px;
-  }
-
-  #servicetxt {
-    font-size: 22px;
-  }
-
-  .projpicex {
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .projex {
-    width: 45%;
-    height: auto;
-  }
-
-  .picturesntext {
-    grid-template-columns: repeat(2, 1fr);
-    height: auto;
-    width: 100%;
-    padding: 20px;
-    margin-left: 0;
-    gap: 15px;
-  }
-
-  .grandprix {
-    height: auto;
-    width: 100%;
-    max-width: 100%;
-  }
-}

@@ -1,17 +1,3 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .header {
     display: flex;
     font-family: monospace;  
@@ -21,6 +7,13 @@ img {
     margin: 0%;
     width: 100%
     
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
 }
 
 
@@ -274,17 +267,16 @@ h1 {
 .picturesntext {
     display: grid;
     flex-direction: row;
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 150px;
     object-fit: cover;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     border-radius: 25px;
     text-align: center;
     position: relative;
-    padding: 40px;
-    margin-left: 4%;
-    margin-right: 4%;
+    padding: 100px;
+    margin-left: 4%;    
 }
 
 
@@ -333,123 +325,4 @@ figure:hover {
     display: flex;
     flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
-}
-
-@media (max-width: 600px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  a#logo {
-    margin-right: 0;
-    font-size: 28px;
-    padding: 2% 0;
-  }
-
-  .header img {
-    width: 80%;
-    max-width: 260px;
-    height: auto;
-  }
-
-  .buttons {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .topbutton {
-    width: 42%;
-    height: auto;
-    margin: 2%;
-    padding: 8px 0;
-  }
-
-  #subtext {
-    font-size: 14px;
-  }
-
-  a.link {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 15px;
-    margin-right: 0;
-    gap: 15px;
-    font-size: 16px;
-  }
-
-  .sumup {
-    margin-top: 8%;
-    font-size: 26px;
-  }
-
-  .picturesntext {
-    grid-template-columns: repeat(2, 1fr);
-    height: auto;
-    width: 100%;
-    padding: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    gap: 15px;
-  }
-
-  .grandprix {
-    height: auto;
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .footerforabout {
-    margin-top: 15%;
-    padding: 20px;
-  }
-
-  .footer {
-    margin-top: 15%;
-    padding: 5%;
-  }
-
-  .footertext {
-    font-size: 20px;
-    margin: 20px;
-  }
-
-  .contact {
-    margin-left: 0;
-    align-items: center;
-    text-align: center;
-  }
-
-  #app {
-    font-size: 16px;
-    margin-top: 5%;
-  }
-
-  .attribute {
-    font-size: 12px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .form {
-    padding: 10px 20px;
-  }
-
-  .descript {
-    font-size: 16px;
-    padding: 8%;
-  }
-
-  .projdescription {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 26px;
-    justify-content: center;
-    text-align: center;
-  }
 }
