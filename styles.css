@@ -289,10 +289,10 @@ h1 {
 
 
 .grandprix {
-    display: grid;
+    display: -ms-inline-grid;
     flex-direction: row;
-    height: 280px;
-    width: 200px;
+    height: 350px;
+    width: 400px;
     object-fit: cover;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -346,12 +346,14 @@ figure:hover {
     margin-right: 0;
     font-size: 28px;
     padding: 2% 0;
+    margin-left: 50px;
   }
 
   .header img {
     width: 80%;
     max-width: 260px;
     height: auto;
+    margin-left: 8%;
   }
 
   .buttons {
@@ -370,6 +372,7 @@ figure:hover {
 
   #subtext {
     font-size: 14px;
+    margin-left: 30%;
   }
 
   a.link {
