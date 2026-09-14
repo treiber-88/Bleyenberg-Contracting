@@ -5,50 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Work — Fernwood Studio</title>
 <meta name="description" content="Selected brand, product, and strategy work from Fernwood Studio.">
-<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-     <div class="header">
-       <a href="index.html"><img src="pictures/logo.png" width="400px" height="230px"></a>
-        <a id="logo" href="index.html"></a>
-        <div class="buttons">
-  <button class="topbutton"><a id="subtext" href=about.html>About Us</a></button>
-   <!--<button class="topbutton"><a id="subtext" href="kindwords.html">Kind Words</a></button>-->
-   <button class="topbutton"><a id="subtext" href="projects.html">Projects</a></button>
-   <button class="topbutton"><a id="subtext" href="services.html">Services</a></button>
-        </div>
-                                                
-    </div>
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Fernwood<span>.</span></a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html" class="active">Work</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn nav-cta">Start a project</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+      <span></span>
+    </button>
+  </div>
+</header>
 
 <main>
 
   <section class="page-intro">
     <div class="wrap">
-      <!--<div class="kicker">Selected work</div>-->
-      <h1>Projects</h1>
-      <!--<p class="lede">Every image below is a placeholder frame — swap in your own project photography, screenshots, or renders and the layout, spacing, and hover states adapt automatically.</p>-->
+      <div class="kicker">Selected work</div>
+      <h1>A sample of what we've shipped.</h1>
+      <p class="lede">Every image below is a placeholder frame — swap in your own project photography, screenshots, or renders and the layout, spacing, and hover states adapt automatically.</p>
     </div>
   </section>
 
   <section class="section tight">
     <div class="wrap">
 
-     <!-- <div class="filter-bar" role="tablist" aria-label="Filter work by category">
+      <div class="filter-bar" role="tablist" aria-label="Filter work by category">
         <button class="filter-btn active" data-filter="all">All work</button>
         <button class="filter-btn" data-filter="brand">Brand</button>
         <button class="filter-btn" data-filter="product">Product</button>
         <button class="filter-btn" data-filter="strategy">Strategy</button>
-      </div>-->
+      </div>
 
       <div class="gallery-grid">
 
         <div class="gallery-item span-2 span-wide" data-category="brand">
+          <div class="frame"><div class="placeholder-fill"></div></div>
           <div class="meta"><span class="title">Alder Health</span><span class="cat">Brand identity</span></div>
-          <div class="frame"><img src="pictures/cedartone4.png"> </div></div>
-          
-        
+        </div>
 
         <div class="gallery-item span-tall" data-category="product">
           <div class="frame"><div class="placeholder-fill"></div></div>
@@ -95,29 +97,54 @@
     </div>
   </section>
 
-  <!--<section class="section tight cta-band on-accent">
+  <section class="section tight cta-band on-accent">
     <div class="wrap">
       <h2>Like what you see? Let's start with a conversation.</h2>
       <a href="contact.html" class="btn">Get in touch</a>
     </div>
-  </section>-->
+  </section>
 
 </main>
 
-<div class="footer">
-    <p class="footertext">
-        Bleyenberg Contracting: High quality and honest.
-    </p>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Fernwood<span>.</span></a>
+        <p>A design and strategy studio based in Minneapolis, working with teams everywhere.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="mailto:hello@fernwoodstudio.co">hello@fernwoodstudio.co</a></li>
+          <li><a href="tel:+16125550134">+1 (612) 555-0134</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Are.na</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Fernwood Studio. All rights reserved.</span>
+      <span>Template built for reuse — swap in your own copy and images.</span>
+    </div>
+  </div>
+</footer>
 
-
-
-<div class="contact">
-    <p id="app">Call/text: +1 (605) 809-7570</p>
-<div class="attribute">This website was made by &nbsp;<a class="hrefunderline" href="http://com-blitzkrieg-web-development.s3-website.us-east-2.amazonaws.com/ ">Rapid Web Development</a></div>
-   
-
-</div>
-</div>
-
-
-</div>
+<script src="js/main.js"></script>
+</body>
+</html>

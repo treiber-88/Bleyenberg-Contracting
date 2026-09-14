@@ -1,47 +1,172 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-    <meta charset="UTF-8">
-    <title>Bleyenberg Contracting</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Fernwood Studio</title>
+<meta name="description" content="Fernwood is a small, independent studio. Here's how we work and who we are.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="header">
-       <a href="index.html"><img src="pictures/logo.png" width="400px" height="230px"></a>
-        <a id="logo" href="index.html"></a>
-        <div class="buttons">
-  <button class="topbutton"><a id="subtext" href=about.html>About Us</a></button>
-   <!--<button class="topbutton"><a id="subtext" href="kindwords.html">Kind Words</a></button>-->
-   <button class="topbutton"><a id="subtext" href="projects.html">Projects</a></button>
-   <button class="topbutton"><a id="subtext" href="services.html">Services</a></button>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Fernwood<span>.</span></a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="gallery.html">Work</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn nav-cta">Start a project</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-intro">
+    <div class="wrap">
+      <div class="kicker">About the studio</div>
+      <h1>A small team that stays close to the work.</h1>
+      <p class="lede">Fernwood was founded in 2014 on a simple idea: better design comes from studios small enough that everyone stays close to the work, not layered behind account managers and decks.</p>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="wrap">
+
+      <div class="editorial">
+        <h3>How we started</h3>
+        <div class="body">
+          <p>Fernwood began as a two-person shop working out of a shared studio space, taking on brand and product work for early-stage teams who couldn't yet afford a large agency. That constraint shaped how we still work today: lean teams, direct communication, and no unnecessary layers between the client and the people doing the work.</p>
+          <p>Over a decade later, we've grown to nine people and moved into our own studio, but the way we take on projects hasn't changed much at all.</p>
         </div>
-                                                
-    </div>
+      </div>
 
-    <div class="Jamie">
-        <p class="about">
-            At Bleyenberg contracting, we strive to:
-        </p>
-        <ul class="wut">
-            <li>Glorify God in our work.</li>
-            <li>Give our customers a great end product.</li>
+      <div class="editorial">
+        <h3>How we work</h3>
+        <div class="body">
+          <p>Every engagement starts with research before anything gets drawn — talking to users, auditing what exists, and understanding the constraints a client is actually working within. Design decisions are easier to defend when they're grounded in something real.</p>
+          <p>We keep project teams small, usually two to three people, so the same hands that sketch the first concept are still there refining the final detail.</p>
+        </div>
+      </div>
+
+      <div class="editorial">
+        <h3>Who we work with</h3>
+        <div class="body">
+          <p>Most of our clients are founders and product leads at early- and growth-stage companies, though we also take on select brand work for established organizations that are rethinking how they show up.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="section on-paper-raised">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What guides the work</h2>
+      </div>
+      <ul class="row-list">
+        <li>
+          <h3>Clarity over decoration</h3>
+          <p>If a detail doesn't help someone understand or use the thing, it doesn't belong.</p>
+        </li>
+        <li>
+          <h3>Research before opinion</h3>
+          <p>We'd rather be slow and right than fast and confident about the wrong problem.</p>
+        </li>
+        <li>
+          <h3>Craft at every scale</h3>
+          <p>The same care goes into a button state as into the overall system it lives in.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The team</h2>
+        <p>Nine designers, strategists, and writers working across every project.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="placeholder-fill"></div>
+          <div class="name">Maren Okafor</div>
+          <div class="role">Founder, Design Director</div>
+        </div>
+        <div class="team-card">
+          <div class="placeholder-fill"></div>
+          <div class="name">Theo Lindqvist</div>
+          <div class="role">Product Design Lead</div>
+        </div>
+        <div class="team-card">
+          <div class="placeholder-fill"></div>
+          <div class="name">Priya Ramaswami</div>
+          <div class="role">Brand Strategist</div>
+        </div>
+        <div class="team-card">
+          <div class="placeholder-fill"></div>
+          <div class="name">Jonah Reyes</div>
+          <div class="role">Researcher</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tight cta-band on-accent">
+    <div class="wrap">
+      <h2>Curious if we're a fit for your project?</h2>
+      <a href="contact.html" class="btn">Say hello</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Fernwood<span>.</span></a>
+        <p>A design and strategy studio based in Minneapolis, working with teams everywhere.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="mailto:hello@fernwoodstudio.co">hello@fernwoodstudio.co</a></li>
+          <li><a href="tel:+16125550134">+1 (612) 555-0134</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Are.na</a></li>
+        </ul>
+      </div>
     </div>
+    <div class="footer-bottom">
+      <span>© 2026 Fernwood Studio. All rights reserved.</span>
+      <span>Template built for reuse — swap in your own copy and images.</span>
+    </div>
+  </div>
+</footer>
 
-<div class="footerforabout">
-    <p class="footertext">
-        Bleyenberg Contracting: High quality and honest.
-    </p>
-
-
-
-<div class="contact">
-    <p id="app">Call/text: +1 (605) 809-7570</p>
-   
-<div class="attribute">This website was made by &nbsp;<a id="attributetxt" href="http://com-blitzkrieg-web-development.s3-website.us-east-2.amazonaws.com/ ">Rapid Web Development</a></div>
-</div>
-</div>
-
-
+<script src="js/main.js"></script>
 </body>
+</html>

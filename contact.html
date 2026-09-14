@@ -1,62 +1,135 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-    <meta charset="UTF-8">
-    <title>Bleyenberg Contracting</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Fernwood Studio</title>
+<meta name="description" content="Get in touch with Fernwood Studio about a new brand, product, or strategy project.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="header">
-        <a id="logo" href="index.html">Bleyenberg Contracting</a>
-      
-        <a class="link" href="contact.html">Contact</a>
-        <a class="link"  href="services.html">Services</a>
-        <a class="link"  href="projects.html">Projects</a>
-        <a class="link"  href="about.html">About Us</a>
-        <a class="link"  href="kindwords.html">stuff</a>
-        
-                                                
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Fernwood<span>.</span></a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Work</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="btn nav-cta">Start a project</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-intro">
+    <div class="wrap">
+      <div class="kicker">Get in touch</div>
+      <h1>Tell us about the project.</h1>
+      <p class="lede">Whether you have a fully scoped brief or just a rough idea, we'd like to hear about it. We typically reply within two business days.</p>
     </div>
+  </section>
 
-    <div class="form">
-        <label class="yo" for="firstName">First Name</label>
-        <input type="text" id="input" required>
+  <section class="section tight">
+    <div class="wrap contact-grid">
+
+      <div class="contact-info">
+        <div class="item">
+          <div class="label">Email</div>
+          <div class="value"><a href="mailto:hello@fernwoodstudio.co" class="link-underline">hello@fernwoodstudio.co</a></div>
+        </div>
+        <div class="item">
+          <div class="label">Phone</div>
+          <div class="value"><a href="tel:+16125550134" class="link-underline">+1 (612) 555-0134</a></div>
+        </div>
+        <div class="item">
+          <div class="label">Studio</div>
+          <div class="value">412 Harmon Place, Suite 3<br>Minneapolis, MN 55403</div>
+        </div>
+        <div class="item">
+          <div class="label">Hours</div>
+          <div class="value">Monday – Friday, 9am – 6pm CT</div>
+        </div>
+
+        <div class="map-block">
+          <div class="placeholder-fill"></div>
+        </div>
+      </div>
+
+      <form class="contact-form" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="company">Company (optional)</label>
+          <input type="text" id="company" name="company" autocomplete="organization">
+        </div>
+        <div class="field">
+          <label for="budget">Approximate budget</label>
+          <input type="text" id="budget" name="budget" placeholder="e.g. $20,000 – $50,000">
+        </div>
+        <div class="field">
+          <label for="message">Tell us about the project</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send message</button>
+        <p class="form-note">This form is front-end only — connect it to your email service or backend of choice to receive submissions.</p>
+      </form>
+
     </div>
+  </section>
 
-     <div class="form">
-        <label class="yo" for="lastName">Last Name</label>
-        <input type="text" id="input" required>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Fernwood<span>.</span></a>
+        <p>A design and strategy studio based in Minneapolis, working with teams everywhere.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="mailto:hello@fernwoodstudio.co">hello@fernwoodstudio.co</a></li>
+          <li><a href="tel:+16125550134">+1 (612) 555-0134</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Are.na</a></li>
+        </ul>
+      </div>
     </div>
-
-     <div class="form">
-        <label class="yo" for="phone">Phone number</label>
-        <input type="text" id="input"  required>
+    <div class="footer-bottom">
+      <span>© 2026 Fernwood Studio. All rights reserved.</span>
+      <span>Template built for reuse — swap in your own copy and images.</span>
     </div>
+  </div>
+</footer>
 
-
-    <div class="form">
-        <label class="yo" for="email">Email</label>
-        <input type="text" id="input" required>
-    </div>
-
-        <div>
-    <button class="submitstuff"><p class="word">Submit</p></button>
-           </div>
-    
-
-<div class="footer">
-    <p class="footertext">
-        Bleyenberg Contracting: High quality and honest.
-    </p>
-
-
-
-<div class="contact">
-    <p id="app">Call/text: +1 (605) 809-7570</p>
-   
-
-</div>
-</div>
-
+<script src="js/main.js"></script>
 </body>
+</html>
